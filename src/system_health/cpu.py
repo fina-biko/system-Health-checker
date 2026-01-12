@@ -15,7 +15,9 @@ def get_cpu_usage():
     """
 
     try:
+        logger=create_logger( )
         cpu_usage=psutil.cpu_percent(interval=1)
+        logger.info(f"CPU usage retrieved successfully: {cpu_usage}%")
         return {"cpu_usage":cpu_usage}
     except Exception as e:
         print()
