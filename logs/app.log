@@ -76,3 +76,4 @@ ZeroDivisionError: division by zero
 2026-01-12 23:23:37,544 - utilites.create_logger - ERROR -  utilites/exception.py already exists
 2026-01-12 23:23:37,547 - utilites.create_logger - INFO - logger created successfully
 2026-01-12 23:26:32,155 - utilites.create_logger - INFO - test log from quick import check
+2026-01-12 23:37:36,637 - utilites.create_logger - INFO - CPU usage retrieved successfully: 21.4%
