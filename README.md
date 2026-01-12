@@ -41,3 +41,26 @@ system-health-checker/
 │
 └── .gitignore
    
+
+METRICS USED
+
+The most important metrics to capture and their meanings are:
+# 1. CPU Utilization (psutil.cpu_percent) 
+What it is: A percentage showing how much of the CPU's total capacity is being used.
+What it means:
+0%: The CPU is doing nothing (idle).
+100%: The CPU is completely maxed out.
+Important Tip: Always use an interval (e.g., psutil.cpu_percent(interval=1)). If you don't, the first call will often return 0.0, which is meaningless because it hasn't had time to measure a change. 
+# 2. CPU Times (psutil.cpu_times) 
+This breaks down the "work" into specific categories so you know why the CPU is busy: 
+User: Time spent running your actual programs (e.g., Python scripts, browser).
+System: Time the CPU spent doing "office work" for the computer (e.g., managing files, talking to hardware).
+I/O Wait (Linux): Time the CPU spent sitting around waiting for a slow disk or network to finish a task. If this is high, your disk is the bottleneck, not the CPU.
+Idle: Time the CPU spent doing absolutely nothing. 
+# 3. CPU Statistics (psutil.cpu_stats)
+These measure how "noisy" or "stressed" the system is: 
+Context Switches: How many times the CPU had to stop one task to start another. A very high number (thousands per second) can mean your system is "jittery" because too many programs are fighting for attention.
+Interrupts: How many times hardware (like a keyboard or mouse) asked the CPU for an immediate response. 
+# 4. Hardware Details
+CPU Count (psutil.cpu_count): Tells you how many cores your machine has. Monitoring "Per CPU" (using percpu=True in other functions) helps you see if one core is doing all the work while others sit idle.
+CPU Frequency (psutil.cpu_freq): Tells you the current speed in MHz. If this is very low, your computer might be "throttling" (slowing down) to save power or stay cool. 

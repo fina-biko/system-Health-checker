@@ -51,3 +51,28 @@ Traceback (most recent call last):
     1/0
     ~^~
 ZeroDivisionError: division by zero
+2026-01-12 23:18:11,792 - utilites.create_logger - ERROR -  .gitignore already exists
+2026-01-12 23:18:11,798 - utilites.create_logger - ERROR -  app.py already exists
+2026-01-12 23:18:11,799 - utilites.create_logger - ERROR -  requirements.txt already exists
+2026-01-12 23:18:11,799 - utilites.create_logger - ERROR -  Readme.md already exists
+2026-01-12 23:18:11,799 - utilites.create_logger - ERROR -  src/init.py already exists
+2026-01-12 23:18:11,800 - utilites.create_logger - ERROR -  src/system_health/init.py already exists
+2026-01-12 23:18:11,801 - utilites.create_logger - ERROR -  src/system_health/cpu.py already exists
+2026-01-12 23:18:11,801 - utilites.create_logger - ERROR -  src/system_health/memory.py already exists
+2026-01-12 23:18:11,802 - utilites.create_logger - ERROR -  logs/app.log already exists
+2026-01-12 23:18:11,803 - utilites.create_logger - ERROR -  utilites/create_logger.py already exists
+2026-01-12 23:18:11,803 - utilites.create_logger - ERROR -  utilites/exception.py already exists
+2026-01-12 23:18:11,805 - utilites.create_logger - INFO - logger created successfully
+2026-01-12 23:23:37,522 - utilites.create_logger - ERROR -  .gitignore already exists
+2026-01-12 23:23:37,522 - utilites.create_logger - ERROR -  app.py already exists
+2026-01-12 23:23:37,522 - utilites.create_logger - ERROR -  requirements.txt already exists
+2026-01-12 23:23:37,523 - utilites.create_logger - ERROR -  Readme.md already exists
+2026-01-12 23:23:37,524 - utilites.create_logger - INFO - logger created successfully
+2026-01-12 23:23:37,525 - utilites.create_logger - INFO - logger created successfully
+2026-01-12 23:23:37,526 - utilites.create_logger - ERROR -  src/system_health/cpu.py already exists
+2026-01-12 23:23:37,526 - utilites.create_logger - ERROR -  src/system_health/memory.py already exists
+2026-01-12 23:23:37,532 - utilites.create_logger - ERROR -  logs/app.log already exists
+2026-01-12 23:23:37,542 - utilites.create_logger - ERROR -  utilites/create_logger.py already exists
+2026-01-12 23:23:37,544 - utilites.create_logger - ERROR -  utilites/exception.py already exists
+2026-01-12 23:23:37,547 - utilites.create_logger - INFO - logger created successfully
+2026-01-12 23:26:32,155 - utilites.create_logger - INFO - test log from quick import check

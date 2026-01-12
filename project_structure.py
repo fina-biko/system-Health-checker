@@ -15,14 +15,15 @@ f"requirements.txt",
 f"Readme.md",
 
 
-f"src/init.py",
+f"src/__init__.py",
 
-f"src/system_health/init.py",
+f"src/system_health/__init__.py",
 f"src/system_health/cpu.py",
 f"src/system_health/memory.py",
 f"logs/app.log",
 f"utilites/create_logger.py",
-f"utilites/exception.py"
+f"utilites/exception.py",
+f"utilites/__init__.py"
 
 ]
 
