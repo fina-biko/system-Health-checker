@@ -1,0 +1,53 @@
+2026-01-12 21:44:18,394 - __main__ - INFO - logger created successfully
+2026-01-12 21:48:00,699 - utilites.create_logger - ERROR -  .gitignore already exists
+2026-01-12 21:48:00,699 - utilites.create_logger - ERROR -  app.py already exists
+2026-01-12 21:48:00,700 - utilites.create_logger - ERROR -  requirements.txt already exists
+2026-01-12 21:48:00,700 - utilites.create_logger - ERROR -  Readme.md already exists
+2026-01-12 21:48:00,701 - utilites.create_logger - ERROR -  src/init.py already exists
+2026-01-12 21:48:00,702 - utilites.create_logger - ERROR -  src/system_health/init.py already exists
+2026-01-12 21:48:00,702 - utilites.create_logger - ERROR -  src/system_health/cpu.py already exists
+2026-01-12 21:48:00,702 - utilites.create_logger - ERROR -  src/system_health/memory.py already exists
+2026-01-12 21:48:00,713 - utilites.create_logger - ERROR -  logs/app.log already exists
+2026-01-12 21:48:00,714 - utilites.create_logger - ERROR -  utilites/create_logger.py already exists
+2026-01-12 21:52:44,813 - utilites.create_logger - ERROR -  .gitignore already exists
+2026-01-12 21:52:44,817 - utilites.create_logger - ERROR -  app.py already exists
+2026-01-12 21:52:44,818 - utilites.create_logger - ERROR -  requirements.txt already exists
+2026-01-12 21:52:44,819 - utilites.create_logger - ERROR -  Readme.md already exists
+2026-01-12 21:52:44,821 - utilites.create_logger - ERROR -  src/init.py already exists
+2026-01-12 21:52:44,821 - utilites.create_logger - ERROR -  src/system_health/init.py already exists
+2026-01-12 21:52:44,823 - utilites.create_logger - ERROR -  src/system_health/cpu.py already exists
+2026-01-12 21:52:44,823 - utilites.create_logger - ERROR -  src/system_health/memory.py already exists
+2026-01-12 21:52:44,827 - utilites.create_logger - ERROR -  logs/app.log already exists
+2026-01-12 21:52:44,827 - utilites.create_logger - ERROR -  utilites/create_logger.py already exists
+2026-01-12 21:52:44,829 - utilites.create_logger - INFO - logger created successfully
+2026-01-12 22:03:03,805 - create_logger - ERROR - Exception occurred: division by zero
+Traceback (most recent call last):
+  File "c:\Users\ADMIN\Desktop\PROJECTS\System_health_checker\system-Health-checker\utilites\exception.py", line 25, in <module>
+    1/0
+    ~^~
+ZeroDivisionError: division by zero
+2026-01-12 22:05:30,258 - create_logger - ERROR - Exception occurred: division by zero
+Traceback (most recent call last):
+  File "c:\Users\ADMIN\Desktop\PROJECTS\System_health_checker\system-Health-checker\utilites\exception.py", line 26, in <module>
+    1/0
+    ~^~
+ZeroDivisionError: division by zero
+2026-01-12 22:07:54,286 - create_logger - ERROR - Exception occurred: division by zero
+Traceback (most recent call last):
+  File "c:\Users\ADMIN\Desktop\PROJECTS\System_health_checker\system-Health-checker\utilites\exception.py", line 26, in <module>
+    1/0
+    ~^~
+ZeroDivisionError: division by zero
+2026-01-12 22:08:18,847 - create_logger - ERROR - Exception occurred: division by zero
+Traceback (most recent call last):
+  File "c:\Users\ADMIN\Desktop\PROJECTS\System_health_checker\system-Health-checker\utilites\exception.py", line 26, in <module>
+    1/0
+    ~^~
+ZeroDivisionError: division by zero
+2026-01-12 22:55:04,349 - create_logger - ERROR - Exception occurred: division by zero
+2026-01-12 22:55:18,360 - create_logger - ERROR - Exception occurred: division by zero
+Traceback (most recent call last):
+  File "c:\Users\ADMIN\Desktop\PROJECTS\System_health_checker\system-Health-checker\utilites\exception.py", line 26, in <module>
+    1/0
+    ~^~
+ZeroDivisionError: division by zero

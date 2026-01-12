@@ -1,0 +1,3 @@
+"logs/app.log",
+git config --global user.email "finarheiner@gmail.com"
+  git config --global user.name "fina-biko"
