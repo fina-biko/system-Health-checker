@@ -64,3 +64,56 @@ Interrupts: How many times hardware (like a keyboard or mouse) asked the CPU for
 # 4. Hardware Details
 CPU Count (psutil.cpu_count): Tells you how many cores your machine has. Monitoring "Per CPU" (using percpu=True in other functions) helps you see if one core is doing all the work while others sit idle.
 CPU Frequency (psutil.cpu_freq): Tells you the current speed in MHz. If this is very low, your computer might be "throttling" (slowing down) to save power or stay cool. 
+
+
+
+
+
+
+
+
+cpu_usage = psutil.cpu_times()
+Then printing 
+say print(cpu_usage)
+it gives:
+scputimes(
+    user=43011.17187499999,
+    system=30398.28125,
+    idle=192504.4375,
+    interrupt=1549.609375,
+    dpc=9288.515625
+)
+
+so scputimes is the class
+it means there must be a helper function whose job was to initialsie the class ie
+def helper():
+   return scputimes(user=,dpc=,,,)
+
+then somewhere we have the class defined
+class scputimes:
+   def __init__(self,user,dpc,):
+      return  a result
+
+
+ # Why Python prints it like that
+
+                When you do:
+
+                print(cpu_usage)
+
+
+Python shows you:
+
+            scputimes(user=..., system=..., idle=...)
+
+
+This is just:
+
+A string representation
+
+Meant for humans
+
+Showing: “this object is an instance of scputimes and these are its fields”
+
+
+if an aobject is a named tuple ,If an object is a named tuple, you can convert all its fields into a dictionary using _asdict()
