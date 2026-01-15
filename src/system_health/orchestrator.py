@@ -7,6 +7,8 @@ from utilites.create_logger  import create_logger
 def orchestrate_system_health_check():
     """
     Orchestrates the system health check by retrieving CPU and memory usage.
+    gets the cpu and memory usage by calling the respective functions from cpu and memory modules
+    then combines the results into a single dictionary.
 
     returns: A dictionary containing CPU and memory usage information, or None if an exception occurs.
     """
