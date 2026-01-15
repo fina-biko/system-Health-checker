@@ -67,10 +67,12 @@ CPU Frequency (psutil.cpu_freq): Tells you the current speed in MHz. If this is 
 
 
 
+# example snippet for the memory(RAM)
+![alt text](image.png)
 
 
 
-
+### what i have learnt
 
 cpu_usage = psutil.cpu_times()
 Then printing 
@@ -116,3 +118,35 @@ Showing: “this object is an instance of scputimes and these are its fields”
 
 
 if an aobject is a named tuple ,If an object is a named tuple, you can convert all its fields into a dictionary using _asdict()
+
+
+# 2: what I have learnt
+This merges one dictionary into another.
+
+📌 dict.update():
+
+takes key–value pairs
+
+adds them to the dictionary
+
+overwrites keys if they already exist
+
+Example:
+system_health = {}
+
+cpu_usage = {
+    "cpu_user": 43.0,
+    "cpu_system": 21.5,
+    "cpu_idle": 35.5
+}
+
+system_health.update(cpu_usage)
+
+
+Result:
+
+system_health == {
+    "cpu_user": 43.0,
+    "cpu_system": 21.5,
+    "cpu_idle": 35.5
+}

@@ -22,11 +22,33 @@ def get_memory_usage():
         logger=create_logger( )
         memory_usage=psutil.virtual_memory()
         logger.info(f"Memory usage retrieved successfully: \n \t \t \t{memory_usage}")
-        #convert the object fields to a dictionary if the object is not none and is also a named tuple
-
+       
         memory_usage=memory_usage._asdict()
+        #rename the keys into more readable format if the keys exist and if not let the keys remain as they are
+        key_renames={
+            "total":"total_memory_bytes",
+            "available":"available_memory_bytes",
+            "percent":"percentage_memory_used",
+            "used":"used_memory_bytes",
+            "free":"free_memory_bytes",
+            "active":"active_memory_bytes",
+            "inactive":"inactive_memory_bytes",
+            "buffers":"buffers_memory_bytes",
+            "cached":"cached_memory_bytes",
+            "shared":"shared_memory_bytes",
+            "slab":"slab_memory_bytes"
+        }
+        for old_key, new_key in key_renames.items():
+            if old_key in memory_usage:
+                memory_usage[new_key]=memory_usage.pop(old_key)
+            else:
+                #retun the original key if it does not exist
+                continue
+                
+
+            
         return memory_usage
-        return None
+        
         
     except Exception as e:
         print()
@@ -38,5 +60,7 @@ def get_memory_usage():
 if __name__=="__main__":
     memory_info=get_memory_usage()
     if memory_info:
-        print(memory_info)
-        print(type(memory_info))
+        #print the key and value  pairs each in its own line
+        for key, value in memory_info.items():
+            print(f"{key}: {value}",end="\n")
+       
