@@ -35,7 +35,7 @@ def get_cpu_usage_per_job():
     Retrieves the cpu usage per the job that is keeping the cpu busy
 
             This breaks down the "work" into specific categories so you know why the CPU is busy: 
-            
+
         User: Time spent running your actual programs (e.g., Python scripts, browser).
         System: Time the CPU spent doing "office work" for the computer (e.g., managing files, talking to hardware).
         I/O Wait (Linux): Time the CPU spent sitting around waiting for a slow disk or network to finish a task. If this is high, your disk is the bottleneck, not the CPU.
@@ -52,8 +52,28 @@ def get_cpu_usage_per_job():
         
         #convrert the object fields to a dictionary
         cpu_usage_dict=cpu_usage._asdict()
+        # rename the keys into more readable format if the keys exist and if not let the keys remain as they are
+        key_renames={
+            "user":"cpu_user_applications",
+            "system":"cpu_system_applications",
+            "idle":"cpu_idle",
+            "iowait":"cpu_iowaiting",
+            "irq":"cpu_interrupt",
+            "softirq":"cpu_softirq",
+            "steal":"cpu_steal",
+            "guest":"cpu_guest",
+            "guest_nice":"cpu_guest_nice"
+        }
+        for old_key, new_key in key_renames.items():
+            if old_key in cpu_usage_dict:
+                cpu_usage_dict[new_key]=cpu_usage_dict.pop(old_key)
+            else:
+                #retun the original key if it does not exist
+                continue
+ 
+        #convert the time from seconds to timedelta for better readability
         for key, value in cpu_usage_dict.items():
-            #convert the time from seconds to timedelta for better readability
+            
             cpu_usage_dict[key]=timedelta(seconds=value)
             
         logger.info(f"CPU usage  in hours per job retrieved successfully  \n: {cpu_usage_dict}")
