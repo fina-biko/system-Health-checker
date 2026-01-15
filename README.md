@@ -30,7 +30,7 @@ system-health-checker/
 │   ├──      system_health/
 
 
-│   │                ├── __init__.py
+│         │   ├──  __init__.py
 
             │   │   ├── cpu.py
 
