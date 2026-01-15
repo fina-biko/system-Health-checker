@@ -25,30 +25,30 @@ system-health-checker/
 ├── README.md
 │
 ├── src/
-│   ├── __init__.py
+│   ├──       __init__.py
 
-│   ├── system_health/
+│   ├──      system_health/
 
 
-│   │   ├── __init__.py
+│   │                ├── __init__.py
 
-│   │   ├── cpu.py
+            │   │   ├── cpu.py
 
-│   │   ├── memory.py
+            │   │   ├── memory.py
 
-│   │   ├── disk.py
+            │   │   ├── disk.py
 
-│   │   └── checker.py
+            │   │   └── checker.py
 │
 ├── tests/
 
-│   ├── __init__.py
+            │   ├── __init__.py
 
-│   └── test_checker.py
+            │   └── test_checker.py
 │
 ├── logs/
 
-│   └── app.log
+│   └──          app.log
 │
 └── .gitignore
    
