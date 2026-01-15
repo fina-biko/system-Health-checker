@@ -1,5 +1,89 @@
-2026-01-14 22:29:00,763 - utilites.create_logger - INFO - CPU usage retrieved successfully: 27.0%
-2026-01-14 22:29:00,765 - utilites.create_logger - INFO - CPU usage  in hours per job retrieved successfully  
-: {'user': datetime.timedelta(seconds=44234, microseconds=187500), 'system': datetime.timedelta(seconds=31367, microseconds=515625), 'idle': datetime.timedelta(days=2, seconds=24823, microseconds=812500), 'interrupt': datetime.timedelta(seconds=1601, microseconds=781250), 'dpc': datetime.timedelta(seconds=9663, microseconds=968750)}
-2026-01-14 22:29:00,765 - utilites.create_logger - INFO - CPU usage  in hours per job retrieved successfully  
-: {'user': datetime.timedelta(seconds=44234, microseconds=187500), 'system': datetime.timedelta(seconds=31367, microseconds=515625), 'idle': datetime.timedelta(days=2, seconds=24823, microseconds=812500), 'interrupt': datetime.timedelta(seconds=1601, microseconds=781250), 'dpc': datetime.timedelta(seconds=9663, microseconds=968750)}
+
+2026-01-14 22:58:32,609 - utilites.create_logger - INFO - Ram usage in bytes  retrieved successfully: 
+ 
+  	 	 svmem(total=8421691392, available=1606725632, percent=80.9, used=6814965760, free=1606725632)
+2026-01-14 23:02:45,718 - utilites.create_logger - ERROR -  .gitignore already exists
+2026-01-14 23:02:45,719 - utilites.create_logger - ERROR -  app.py already exists
+2026-01-14 23:02:45,719 - utilites.create_logger - ERROR -  requirements.txt already exists
+2026-01-14 23:02:45,719 - utilites.create_logger - ERROR -  Readme.md already exists
+2026-01-14 23:02:45,719 - utilites.create_logger - ERROR -  src/__init__.py already exists
+2026-01-14 23:03:04,565 - utilites.create_logger - ERROR -  .gitignore already exists
+2026-01-14 23:03:04,565 - utilites.create_logger - ERROR -  app.py already exists
+2026-01-14 23:03:04,566 - utilites.create_logger - ERROR -  requirements.txt already exists
+2026-01-14 23:03:04,566 - utilites.create_logger - ERROR -  Readme.md already exists
+2026-01-14 23:03:04,567 - utilites.create_logger - ERROR -  src/__init__.py already exists
+2026-01-14 23:03:04,568 - utilites.create_logger - INFO - logger created successfully
+2026-01-14 23:03:04,569 - utilites.create_logger - ERROR -  src/system_health/__init__.py already exists
+2026-01-14 23:03:04,569 - utilites.create_logger - ERROR -  src/system_health/cpu.py already exists
+2026-01-14 23:03:04,570 - utilites.create_logger - ERROR -  src/system_health/memory.py already exists
+2026-01-14 23:03:04,570 - utilites.create_logger - ERROR -  logs/app.log already exists
+2026-01-14 23:03:04,571 - utilites.create_logger - ERROR -  utilites/create_logger.py already exists
+2026-01-14 23:03:04,572 - utilites.create_logger - ERROR -  utilites/exception.py already exists
+2026-01-14 23:03:04,573 - utilites.create_logger - ERROR -  utilites/__init__.py already exists
+2026-01-14 23:04:32,569 - utilites.create_logger - ERROR -  .gitignore already exists
+2026-01-14 23:04:32,570 - utilites.create_logger - ERROR -  app.py already exists
+2026-01-14 23:04:32,570 - utilites.create_logger - ERROR -  requirements.txt already exists
+2026-01-14 23:04:32,570 - utilites.create_logger - ERROR -  Readme.md already exists
+2026-01-14 23:04:32,571 - utilites.create_logger - ERROR -  src/__init__.py already exists
+2026-01-14 23:04:32,571 - utilites.create_logger - INFO - <_io.TextIOWrapper name='src/orchestrator.py' mode='w' encoding='cp1252'> created successfully
+2026-01-14 23:04:32,572 - utilites.create_logger - ERROR -  src/system_health/__init__.py already exists
+2026-01-14 23:04:32,572 - utilites.create_logger - ERROR -  src/system_health/cpu.py already exists
+2026-01-14 23:04:32,573 - utilites.create_logger - ERROR -  src/system_health/memory.py already exists
+2026-01-14 23:04:32,573 - utilites.create_logger - ERROR -  logs/app.log already exists
+2026-01-14 23:04:32,573 - utilites.create_logger - ERROR -  utilites/create_logger.py already exists
+2026-01-14 23:04:32,574 - utilites.create_logger - ERROR -  utilites/exception.py already exists
+2026-01-14 23:04:32,574 - utilites.create_logger - ERROR -  utilites/__init__.py already exists
+2026-01-14 23:04:39,298 - utilites.create_logger - ERROR -  .gitignore already exists
+2026-01-14 23:04:39,298 - utilites.create_logger - ERROR -  app.py already exists
+2026-01-14 23:04:39,299 - utilites.create_logger - ERROR -  requirements.txt already exists
+2026-01-14 23:04:39,299 - utilites.create_logger - ERROR -  Readme.md already exists
+2026-01-14 23:04:39,299 - utilites.create_logger - ERROR -  src/__init__.py already exists
+2026-01-14 23:04:39,300 - utilites.create_logger - ERROR -  src/orchestrator.py already exists
+2026-01-14 23:04:39,300 - utilites.create_logger - ERROR -  src/system_health/__init__.py already exists
+2026-01-14 23:04:39,300 - utilites.create_logger - ERROR -  src/system_health/cpu.py already exists
+2026-01-14 23:04:39,301 - utilites.create_logger - ERROR -  src/system_health/memory.py already exists
+2026-01-14 23:04:39,301 - utilites.create_logger - ERROR -  logs/app.log already exists
+2026-01-14 23:04:39,301 - utilites.create_logger - ERROR -  utilites/create_logger.py already exists
+2026-01-14 23:04:39,302 - utilites.create_logger - ERROR -  utilites/exception.py already exists
+2026-01-14 23:04:39,302 - utilites.create_logger - ERROR -  utilites/__init__.py already exists
+2026-01-14 23:05:18,125 - utilites.create_logger - ERROR -  .gitignore already exists
+2026-01-14 23:05:18,126 - utilites.create_logger - ERROR -  app.py already exists
+2026-01-14 23:05:18,126 - utilites.create_logger - ERROR -  requirements.txt already exists
+2026-01-14 23:05:18,126 - utilites.create_logger - ERROR -  Readme.md already exists
+2026-01-14 23:05:18,127 - utilites.create_logger - ERROR -  src/__init__.py already exists
+2026-01-14 23:05:18,127 - utilites.create_logger - INFO - <_io.TextIOWrapper name='src/orchestrator.py' mode='w' encoding='cp1252'> created successfully
+2026-01-14 23:05:18,127 - utilites.create_logger - ERROR -  src/system_health/__init__.py already exists
+2026-01-14 23:05:18,128 - utilites.create_logger - ERROR -  src/system_health/cpu.py already exists
+2026-01-14 23:05:18,128 - utilites.create_logger - ERROR -  src/system_health/memory.py already exists
+2026-01-14 23:05:18,128 - utilites.create_logger - ERROR -  logs/app.log already exists
+2026-01-14 23:05:18,129 - utilites.create_logger - ERROR -  utilites/create_logger.py already exists
+2026-01-14 23:05:18,129 - utilites.create_logger - ERROR -  utilites/exception.py already exists
+2026-01-14 23:05:18,130 - utilites.create_logger - ERROR -  utilites/__init__.py already exists
+2026-01-14 23:08:28,158 - utilites.create_logger - ERROR -  .gitignore already exists
+2026-01-14 23:08:28,159 - utilites.create_logger - ERROR -  app.py already exists
+2026-01-14 23:08:28,159 - utilites.create_logger - ERROR -  requirements.txt already exists
+2026-01-14 23:08:28,159 - utilites.create_logger - ERROR -  Readme.md already exists
+2026-01-14 23:08:28,160 - utilites.create_logger - INFO - <_io.TextIOWrapper name='src/__init__.py' mode='w' encoding='cp1252'> created successfully
+2026-01-14 23:08:28,160 - utilites.create_logger - INFO - <_io.TextIOWrapper name='src/orchestrator.py' mode='w' encoding='cp1252'> created successfully
+2026-01-14 23:08:28,161 - utilites.create_logger - INFO - <_io.TextIOWrapper name='src/system_health/__init__.py' mode='w' encoding='cp1252'> created successfully
+2026-01-14 23:08:28,162 - utilites.create_logger - INFO - <_io.TextIOWrapper name='src/system_health/cpu.py' mode='w' encoding='cp1252'> created successfully
+2026-01-14 23:08:28,163 - utilites.create_logger - INFO - <_io.TextIOWrapper name='src/system_health/memory.py' mode='w' encoding='cp1252'> created successfully
+2026-01-14 23:08:28,164 - utilites.create_logger - INFO - <_io.TextIOWrapper name='src/system_health/orchestrator.py' mode='w' encoding='cp1252'> created successfully
+2026-01-14 23:08:28,166 - utilites.create_logger - ERROR -  logs/app.log already exists
+2026-01-14 23:08:28,167 - utilites.create_logger - ERROR -  utilites/create_logger.py already exists
+2026-01-14 23:08:28,168 - utilites.create_logger - ERROR -  utilites/exception.py already exists
+2026-01-14 23:08:28,170 - utilites.create_logger - ERROR -  utilites/__init__.py already exists
+2026-01-15 07:17:06,347 - utilites.create_logger - INFO - CPU usage retrieved successfully: 98.6%
+2026-01-15 07:17:06,348 - utilites.create_logger - INFO - CPU usage  in hours per job retrieved successfully  
+: {'user': datetime.timedelta(seconds=46995), 'system': datetime.timedelta(seconds=33453, microseconds=15625), 'idle': datetime.timedelta(days=2, seconds=33556, microseconds=687500), 'interrupt': datetime.timedelta(seconds=1732, microseconds=750000), 'dpc': datetime.timedelta(seconds=10362, microseconds=125000)}
+2026-01-15 07:17:06,348 - utilites.create_logger - INFO - CPU usage  in hours per job retrieved successfully  
+: {'user': datetime.timedelta(seconds=46995), 'system': datetime.timedelta(seconds=33453, microseconds=15625), 'idle': datetime.timedelta(days=2, seconds=33556, microseconds=687500), 'interrupt': datetime.timedelta(seconds=1732, microseconds=750000), 'dpc': datetime.timedelta(seconds=10362, microseconds=125000)}
+2026-01-15 07:19:01,896 - utilites.create_logger - INFO - Memory usage retrieved successfully: svmem(total=8421691392, available=1291378688, percent=84.7, used=7130312704, free=1291378688)
+2026-01-15 07:19:28,659 - utilites.create_logger - INFO - Memory usage retrieved successfully: svmem(total=8421691392, available=1112932352, percent=86.8, used=7308759040, free=1112932352)
+2026-01-15 07:19:49,789 - utilites.create_logger - INFO - Memory usage retrieved successfully: svmem(total=8421691392, available=1236762624, percent=85.3, used=7184928768, free=1236762624)
+2026-01-15 07:20:05,714 - utilites.create_logger - INFO - Memory usage retrieved successfully: svmem(total=8421691392, available=1137889280, percent=86.5, used=7283802112, free=1137889280)
+2026-01-15 07:20:45,448 - utilites.create_logger - INFO - Memory usage retrieved successfully: svmem(total=8421691392, available=1254985728, percent=85.1, used=7166705664, free=1254985728)
+2026-01-15 07:22:41,687 - utilites.create_logger - INFO - Memory usage retrieved successfully: svmem(total=8421691392, available=1169002496, percent=86.1, used=7252688896, free=1169002496)
+2026-01-15 07:23:38,407 - utilites.create_logger - INFO - Memory usage retrieved successfully: svmem(total=8421691392, available=1186471936, percent=85.9, used=7235219456, free=1186471936)
+2026-01-15 07:24:07,390 - utilites.create_logger - INFO - Memory usage retrieved successfully: 
+ 	 	 	svmem(total=8421691392, available=1153683456, percent=86.3, used=7268007936, free=1153683456)

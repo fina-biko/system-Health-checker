@@ -16,10 +16,12 @@ f"Readme.md",
 
 
 f"src/__init__.py",
+f"src/orchestrator.py",
 
 f"src/system_health/__init__.py",
 f"src/system_health/cpu.py",
 f"src/system_health/memory.py",
+f"src/system_health/orchestrator.py",
 f"logs/app.log",
 f"utilites/create_logger.py",
 f"utilites/exception.py",
@@ -62,7 +64,7 @@ def create_files(path):
             with open (file, "w") as f:
                 
                 #once we create the logger object, we call the info method to log messages
-                log.info("logger created successfully")
+                log.info(f"{f} created successfully")
                 pass
         else:
             log.error(f" {file} already exists")

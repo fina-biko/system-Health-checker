@@ -1,3 +1,4 @@
+
 from  utilites.exception import exception_handler
 from utilites.create_logger  import create_logger
 from datetime import timedelta
@@ -33,6 +34,12 @@ def get_cpu_usage_per_job():
    
     Retrieves the cpu usage per the job that is keeping the cpu busy
 
+            This breaks down the "work" into specific categories so you know why the CPU is busy: 
+            
+        User: Time spent running your actual programs (e.g., Python scripts, browser).
+        System: Time the CPU spent doing "office work" for the computer (e.g., managing files, talking to hardware).
+        I/O Wait (Linux): Time the CPU spent sitting around waiting for a slow disk or network to finish a task. If this is high, your disk is the bottleneck, not the CPU.
+        Idle: Time the CPU spent doing absolutely nothing. 
     returns: {cpu_term: usage} otheriwse  an exception that arises or None
 
     """

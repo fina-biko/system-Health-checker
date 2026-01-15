@@ -95,16 +95,15 @@ class scputimes:
       return  a result
 
 
- # Why Python prints it like that
 
-                When you do:
+so my  thinnking and trick is this:if i see in a module that a fucntion returns something like this
+ psutil.virtual_memory()
+svmem(total=10367352832, available=6472179712, percent=37.6, used=8186245120, free=2181107712, active=4748992512, inactive=2758115328, buffers=790724608, cached=3500347392, shared=787554304)
 
-                print(cpu_usage)
 
+tso this is an instantiated class and an instantiated class is an object  , and an object can retrieve all its attributes using the dot notation.
 
-Python shows you:
-
-            scputimes(user=..., system=..., idle=...)
+ # Why Python prints it like thatso if this instantiation of a class is what is output as a result
 
 
 This is just:
