@@ -26,18 +26,28 @@ system-health-checker/
 │
 ├── src/
 │   ├── __init__.py
+
 │   ├── system_health/
+
+
 │   │   ├── __init__.py
+
 │   │   ├── cpu.py
+
 │   │   ├── memory.py
+
 │   │   ├── disk.py
+
 │   │   └── checker.py
 │
 ├── tests/
+
 │   ├── __init__.py
+
 │   └── test_checker.py
 │
 ├── logs/
+
 │   └── app.log
 │
 └── .gitignore
